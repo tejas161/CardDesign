@@ -1,0 +1,598 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+html{
+  font-size:16px;
+}
+:root{
+  --bgcolor:#e5eaf7;
+  --primary-color:#6f5de7;
+  --text-color:#828286;
+  --main-text-color:#333333;
+}
+ /* ------------------------------------------Start of ------------------------------------------ ------
+ ----------------------------------------------Navbar 1---------------------------------------------------- */
+.search-hide{
+  visibility: hidden;
+}
+.navbar-header{
+  background-color:rgb(43, 43, 63);
+}
+
+.header-button{
+  margin-left:1.8rem;
+}
+.header-button .btnnav{
+   font-family: 'Times New Roman', Times, serif;
+   background-color:white;
+  height:1.8rem;
+  width:5.3rem;
+ 
+  
+ }
+ .header-button .btnnav:hover{
+   text-decoration: underline;
+ 
+}
+
+
+ .navbar-main h3{
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-size:2.4vw;
+   
+   font-weight: bold;
+   
+   margin-left:0.5rem;
+ 
+ }
+ .navbar-main .box,.box h6{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:1.2vw;
+ }
+ .navbar-main .box:hover{
+   cursor:pointer;
+   color: rgb(117, 117, 133);
+
+
+ }
+ .navu-link{
+   color:rgb(29, 34, 53);
+   text-decoration: none;
+ }
+  
+ .navu-link:hover{
+   color:rgb(75, 75, 119);
+   text-decoration: underline;
+ }
+ .navbar-main .input-group{
+   
+   width:36rem;
+   height:2.8rem;
+   font-family:'cursive';
+   }
+
+
+
+ @media only screen and (max-width: 600px) {
+  .navbar-main .input-group{
+    display:none;
+  }
+}
+  /* ------------------------------------------End of ------------------------------------------ ------
+ ----------------------------------------------Navbar 1---------------------------------------------------- */
+
+
+
+ /* ------------------------------------------start of ------------------------------------------ ------
+ ----------------------------------------------Navbar 2---------------------------------------------------- */
+
+.navbar2 .list-heading{
+  list-style: none;
+  text-decoration: none;
+ 
+  
+ 
+ 
+}
+.navbar2 .list-heading li{
+  font-weight: bold;
+  padding:0 1.2rem;
+  cursor:pointer;
+  height:4.5rem;
+  border-right:2px solid rgb(221, 210, 210);
+  border-bottom:2px solid rgb(221,210,210);
+ 
+ 
+}
+
+.navbar2 .list-heading .bordnone{
+  border-right:none;
+}
+.navbar2 .list-heading li:hover{
+  border-right:2px solid rgb(39, 38, 38);
+  border-bottom:2px solid rgb(39,38,38);
+    
+  
+}
+
+
+ /* ------------------------------------------End of ------------------------------------------ ------
+ ----------------------------------------------Navbar 2---------------------------------------------------- */
+
+
+
+ /* ------------------------------------------start of ------------------------------------------ ------
+ ----------------------------------------------About Us---------------------------------------------------- */
+.about-main-container{
+  height:28rem;
+}
+ .aboutpic{
+
+ width:100%;
+ height:28rem;
+   
+  
+  
+
+}
+.aboutcontent{
+  position:relative;
+  
+  bottom:26rem;
+}
+
+
+ /* ------------------------------------------End of ------------------------------------------ ------
+ ----------------------------------------------About Us---------------------------------------------------- */
+
+ /* ------------------------------------------start of ------------------------------------------ ------
+ ----------------------------------------------Body 1---------------------------------------------------- */
+ 
+ 
+
+ .body1-container-subdiv:hover{
+  background-color: var(--bgcolor);
+  cursor:pointer;
+}
+.body1-container-subdiv:hover > .fontawesome-style{
+  background-color:#fff;
+}
+ .body1-container
+ {
+     width:80vw;
+     padding:1.2rem;
+     box-shadow:0.4rem 0.4rem 6rem rgba(0,0,0,0.1);
+    
+     background-color: #fff;
+     border-radius:0.5rem;
+ }
+ 
+ .body1-container .main-heading{
+     font-size:2rem;
+     font-weight:bolder;
+     margin-bottom:4rem;
+     word-spacing: 1rem;
+ }
+ 
+ 
+ .body1-container-subdiv{
+   
+  padding:0 4rem;
+  
+  
+ 
+ }
+
+ .body1-container-subdiv:hover{
+   border:0.4px solid grey;
+ }
+ 
+ .body1-container .sub-heading{
+     font-size:1.3rem;
+     font-weight:bolder;
+ }
+ 
+ 
+ .fontawesome-style{
+     font-size:2rem;
+     color:var(--primary-color);
+     width:4rem;
+     height:4rem;
+     border-radius: 50%;
+     background-color: var(--bgcolor);
+     display:grid;
+     place-items: center;
+     text-align:center;
+     margin:2rem auto;
+     
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ /* ------------------------------------------End of ------------------------------------------ ------
+ ----------------------------------------------Body 1---------------------------------------------------- */
+
+
+ /* ------------------------------------------Start of ------------------------------------------ ------
+ ----------------------------------------------Services---------------------------------------------------- */
+
+ .common-section{
+  margin:4rem 0;
+}
+.our-services img{
+ width:60%;
+ height:60%;
+ margin-top:11rem;
+ box-shadow:rgba(0,0,0,0.25) 0px 0.8rem 0.8rem;
+ border-radius:1.5rem;
+
+}
+
+.our-services .mini-title{
+ text-transform:uppercase;
+ font-weight:normal;
+ margin:3rem 0;
+ text-align:left;
+ font-size:1.4rem;
+}
+
+.our-services .main-heading{
+  font-weight:bolder;
+
+
+}
+
+.our-services-info{
+ margin-top:4rem;
+}
+
+.our-services .our-services-number{
+ width:3rem;
+ height:3rem;
+ border-radius: 50%;
+ background-color: transparent;
+ border:0.1rem solid var(--primary-color);
+ font-size:1.5rem;
+ color:var(--primary-color);
+ display:grid;
+ place-items: center;
+}
+
+
+.our-services-data{
+ padding-left: 2rem;
+}
+
+
+.our-services .our-services-data p{
+ margin:1rem 0;
+ 
+}
+
+
+
+
+/* 2 section of services Us */
+
+.our-services-rightside{
+   margin-top:10rem;
+}
+.our-services-rightside-content{
+   padding-left:8rem;
+}
+
+.btns-style{
+  height:2rem;
+  width:7rem;
+  border-radius:1.6rem;
+  color:#fff;
+  background-color: var(--primary-color);
+  text-transform:capitalize;
+  font-size:1rem;
+}
+.btns-style:hover{
+  border:0.1rem solid white;
+  background-color: var(--primary-color);
+  
+  color:white;
+  box-shadow:0 0.2rem 0.5rem rgb(101, 100, 175);
+}
+.btns-style-border{
+  border:0.1rem solid var(--primary-color);
+  background-color: transparent;
+  color:var(--primary-color);
+  box-shadow:0 0.2rem 0.5rem rgb(101, 100, 175);
+
+}
+ /* ------------------------------------------End of ------------------------------------------ ------
+ ---------------------------------------------Services---------------------------------------------------- */
+
+
+ /* ------------------------------------------Start of ------------------------------------------ ------
+ ---------------------------------------------Footer---------------------------------------------------- */
+footer{
+  
+  
+  padding:3rem 0;
+  background-color: #182334;
+  color:#fff;
+  
+}
+footer h2{
+  color:#fff;
+}
+
+footer  li{
+  
+ list-style: none;
+ font-size:1.2rem;
+ color:white;
+ font-weight: lighter;
+ cursor:pointer;
+ margin:1rem 0;
+}
+
+footer li a{
+  color:white;
+  text-decoration: none;
+}
+
+footer a:hover{
+  color:var(--primary-color);
+  text-decoration: underline;
+}
+
+footer .fontawesome-style{
+font-size:2rem;
+color:var(--primary-color);
+background-color: transparent;
+width:0;
+height:0;
+margin:2rem 0;
+cursor:pointer;
+
+}
+footer .footer-icons a{
+  text-decoration: none;
+}
+
+footer .fontawesome-style:hover{
+  transition: all 1s;
+  animation:rotatefont 1s linear infinite alternate-reverse;
+  color:#fff; 
+}
+
+@keyframes rotatefont{
+  0%{
+      transform:scale(0.6);
+  }
+  100%{
+      transform:scale(1.2);
+  }
+}
+footer .main-hero-para{
+  margin:0;
+}
+
+
+
+ /* ------------------------------------------End of ------------------------------------------ ------
+ ---------------------------------------------Footer---------------------------------------------------- */
+
+
+ /* ------------------------------------------start of ------------------------------------------ ------
+ ---------------------------------------------Sign Up---------------------------------------------------- */
+ .main-signup{
+   
+   border:2px solid rgb(230, 216, 216);
+ }
+ 
+ .form-group{
+   padding:0.6rem;
+   margin-left:1.2rem;
+   border-bottom: 2px solid rgb(158, 153, 153);
+   width:40%;
+   
+ }
+
+ 
+
+
+ .form-group label{
+   font-size:1.6rem;
+  
+
+ }
+.form-group input{
+  margin-left:1.2rem;
+  border:none;
+  outline:none;
+  
+ 
+}
+
+.form-button {
+  border-bottom:none;
+  margin:0;
+}
+
+.form-button input{
+  outline:rgb(17, 17, 117);
+  color:white;
+  width:5rem;
+  height:3rem;
+  background-color: rgb(75, 75, 233);
+  
+}
+
+.form-button input:hover{
+  background-color: blue;
+  outline:rgb(2, 2, 104)
+}
+
+.signup-image{
+ position:absolute;
+ bottom:18%;
+ left:50%;
+}
+
+.signup-image img{
+  width:25rem;
+  height:14rem;
+}
+
+
+
+
+ /* ------------------------------------------End of ------------------------------------------ ------
+ ---------------------------------------------Sign Up---------------------------------------------------- */
+
+
+
+ /* ------------------------------------------Start of ------------------------------------------ ------
+ ---------------------------------------------Sign In---------------------------------------------------- */
+ .sign-in-title
+ {
+  font-family: 'Oswald', sans-serif;
+ }
+
+.signin-img{
+  margin-left:6rem;
+  margin-top:4rem;
+
+}
+
+
+.signin-img img{
+  width:14rem;
+  height:8rem;
+}
+
+.signin-content{
+  width:70%;
+
+}
+
+.navbar-main-id-none
+{
+  display:none;
+}
+
+.signin-content .form-group{
+ 
+  margin-left:7rem;
+  margin-top:2rem;
+}
+
+.alert-sigin{
+  position:relative;
+  top:-14rem;
+}
+
+
+
+
+ /* ------------------------------------------End of ------------------------------------------ ------
+ ---------------------------------------------Sign In---------------------------------------------------- */
+
+
+  /* ------------------------------------------start of ------------------------------------------ ------
+ ---------------------------------------------contact---------------------------------------------------- */
+.contact-up-group{
+  border:1px solid rgb(240, 235, 235);
+}
+
+.contact-up-group:hover{
+  background-color: rgb(239, 239, 243);
+ 
+}
+ .contact-up-group .imgcontact i{
+  font-size:2rem;
+  padding-top:1.2rem;
+ }
+ .contact-up-group .imgcontent{
+   padding-left:1.4rem;
+   padding-top:0.5rem;
+ }
+
+ .contact_form_container{
+   border:1px solid rgb(240, 235, 235);
+ }
+ 
+ .contact_form_name input{
+   border:1px solid rgb(209, 209, 231);
+   outline:none;
+
+ }
+ .contact_form_name input:hover{
+   border:2px solid rgb(221, 221, 243);
+ }
+
+ .contact_form_name textarea:hover{
+   border:2px solid rgb(221, 221, 240);
+ }
+ .contact_form_text textarea{
+   border:1px solid rgb(209, 209, 231);
+   outline:none;
+ }
+
+ .contact_submit_button{
+   background-color: rgb(79, 79, 219);
+   color:white;
+   border:2px solid rgb(65, 65, 153);
+   width:6rem;
+   height:2rem;
+ }
+
+ .contact_submit_button:hover{
+   background-color: blue;
+   border:2px solid rgb(7, 7, 180);
+
+ }
+  /* ------------------------------------------End of ------------------------------------------ ------
+ ---------------------------------------------contact---------------------------------------------------- */
+
+
+ /* ------------------------------------------start of ------------------------------------------ ------
+ ---------------------------------------------Brandstore---------------------------------------------------- */
+
+ .b-img1-cont{
+   width:20rem;
+   position:absolute;
+    top:20rem;
+    left:9rem;
+ }
+
+ 
+.btn-br2{
+  width:40%;
+  height:2.6rem;
+  border-radius:1.2rem;
+  font-weight: bold;
+  font-size:1.2rem;
+}
+
+.bst-3{
+  position: absolute;
+  top:1.5rem;
+  left:0.2rem;
+  
+}
+
+.brandlpg{
+  position:relative;
+  bottom:20rem;
+  left:0.5rem;
+}
+
+  /* ------------------------------------------End of ------------------------------------------ ------
+ ---------------------------------------------Brandstore---------------------------------------------------- */
+  

@@ -31,28 +31,8 @@ const PORT = process.env.PORT || 5000;
 
 
 
-// app.get('/about',middleware,(req,res) => {
-//     res.send('<h2>Hello world from teja  about server</h2>');
-   
 
-// });
 
-app.get('/contact',(req,res) => {
-    res.cookie('contactcookie','done here');
-    res.send('<h1>Hello world from teja contact server</h1>');
-   
-
-});
-
-app.get('/signin',(req,res) => {
-    res.send('Hello world from teja signin');
-
-});
-
-app.get('/signup',(req,res) => {
-    res.send('Hello world from teja signup');
-
-});
 
 if ( process.env.NODE_ENV == "production"){
 
